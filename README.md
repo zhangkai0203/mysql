@@ -1,6 +1,6 @@
 # mysql
 
-####mysql中的username='%s' and xx='%f'"表示什么意思？
+#### mysql中的username='%s' and xx='%f'"表示什么意思？
 
     $Model->where("id=%d and username='%s' and xx='%f'",array($id,$username,$xx))->select();
     // 或者
